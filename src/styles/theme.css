@@ -1,0 +1,15 @@
+/* Ponte entre ThemeConfig (TS) e o CSS/Tailwind.
+   ThemeProvider escreve estas variáveis em runtime a partir de src/config/theme.ts,
+   então nenhuma cor fica hardcoded nos componentes. */
+:root {
+  --color-bg: #0e0d0c;
+  --color-surface: #171513;
+  --color-ink: #f3efe6;
+  --color-muted: #9a9388;
+  --color-accent: #c9a227;
+  --color-accent-2: #5c6660;
+
+  --font-display: "Fraunces", Georgia, serif;
+  --font-body: "Inter", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
